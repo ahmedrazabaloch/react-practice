@@ -56,6 +56,11 @@ const App = ({ children }) => {
               icon: <TbPasswordUser />,
               label: "Password Generator",
             },
+            {
+              key: "/OtpGenerator",
+              icon: <TbPasswordUser />,
+              label: "OTP Generator",
+            },
           ]}
         />
       </Sider>
