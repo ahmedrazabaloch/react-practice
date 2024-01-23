@@ -4,6 +4,7 @@ import HomePage from "../compenents/Home";
 import BgChanger from "../compenents/BgChanger";
 import Counter from "../compenents/Counter";
 import PassGenerator from "../compenents/PassGenerator";
+import OtpGenerator from "../compenents/OtpGenerator";
 
 const AppRouter = () => {
   return (
@@ -38,6 +39,14 @@ const AppRouter = () => {
           element={
             <PageLayout>
               <PassGenerator />
+            </PageLayout>
+          }
+        />
+        <Route
+          path="/OtpGenerator"
+          element={
+            <PageLayout>
+              <OtpGenerator />
             </PageLayout>
           }
         />
